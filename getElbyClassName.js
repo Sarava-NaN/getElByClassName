@@ -15,6 +15,6 @@ let btn=document.getElementsByClassName("btn");
 
 setInterval(()=>{
     //   history.back()
-    //   location.href="https://www.google.com";
+      location.href="https://www.premierleague.com/tables";
       window.document.title="Football"
-},2000)
+},5000)
