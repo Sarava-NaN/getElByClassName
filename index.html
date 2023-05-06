@@ -169,7 +169,9 @@
 
        btnEl[0].addEventListener("click",()=>{
            let newLine= document.getElementsByClassName("list");
-               newLine[0].innerHTML +=`<li>${searchEl[0].value}</li>`
+               newLine[0].innerHTML +=`<li>${searchEl[0].value}</li>`;
+               onclick=searchEl[0].value='';
+
        })
     </script>
 </body>
